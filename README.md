@@ -19,6 +19,23 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-About the attached data set "tidydata.txt"
+How the script works
 ==================================================================
-The task was to merge training and test data to create one data set and extract the measurements on the mean and standard deviation for each measurement. The final data "tidydata.txt" set was created by calculating the average of the mean and standar deviation measurements for each activity and each subject.
+The task was to merge training and test data to create one data set and extract the measurements on the mean and standard deviation for each measurement. The final data "tidydata.txt" set was created by calculating the average of the mean and standar deviation measurements for each activity and each subject through following steps:
+Training and tests data measurements were first merged with respective activity id, subject id and measurement names.
+Both the data sets were merged to create one dataset
+The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std) were extracted for each measurement
+Activity name was added against each activity identifier
+Descriptive variable names were given to each variable by replacing:
+"^f" by "frequencyDomain"
+"^t" by "timeDomain"
+"Acc" by "Accelerometer"
+"Gyro" by "Gyroscope"
+"Mag" by "Magnitude"
+"Freq" by "Frequency"
+"mean" by "Mean"
+"std" by "StandardDeviation"
+"BodyBody" by "Body"
+The average of the mean and standar deviation measurements for each activity and each subject to arrive at the final data file "tidydata.txt"
+
+---- All the steps are explained through comments in the run_analysis.R file
