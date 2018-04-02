@@ -14,16 +14,16 @@ Data Tidying Steps :
 - The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std) were extracted for each measurement
 - Activity name was added against each activity identifier
 - Descriptive variable names were given to each variable by replacing:
-     - "^f" by "frequencyDomain"
-      -"^t" by "timeDomain"
-      -"Acc" by "Accelerometer"
-      -"Gyro" by "Gyroscope"
-      -"Mag" by "Magnitude"
-      -"Freq" by "Frequency"
-      -"mean" by "Mean"
-      -"std" by "StandardDeviation"
-      -"BodyBody" by "Body"
-The average of the mean and standar deviation measurements for each activity and each subject to arrive at the final data file "tidydata.txt"
+     -    "^f" by "frequencyDomain"
+     -    "^t" by "timeDomain"
+     -    "Acc" by "Accelerometer"
+     -    "Gyro" by "Gyroscope"
+     -    "Mag" by "Magnitude"
+     -    "Freq" by "Frequency"
+     -    "mean" by "Mean"
+     -    "std" by "StandardDeviation"
+     -    "BodyBody" by "Body" 
+- The average of the mean and standar deviation measurements for each activity and each subject to arrive at the final data file "tidydata.txt"
 
 
 Variable Details in "Tidydata.txt":
