@@ -15,7 +15,7 @@ Identifiers:
 - activity_name : Activity name for each activity, string
 
 Average Measurements:
-=================================
+
 The rest of columns are the average of mean and standard deviations of all the measurements in the frequency and time domain for each subject and activity type
 
 Data Tidying Steps :
