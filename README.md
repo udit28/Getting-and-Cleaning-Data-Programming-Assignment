@@ -36,6 +36,6 @@ The task was to merge training and test data to create one data set and extract 
     - "mean" by "Mean"
     - "std" by "StandardDeviation"
     - "BodyBody" by "Body"
-    The average of the mean and standar deviation measurements for each activity and each subject to arrive at the final data file "tidydata.txt"
+- The average of the mean and standar deviation measurements for each activity and each subject to arrive at the final data file "tidydata.txt"
 
 ---- All the steps are explained through comments in the run_analysis.R file
