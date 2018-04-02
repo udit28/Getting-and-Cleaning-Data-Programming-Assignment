@@ -9,9 +9,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Variable Details:
 =================================
 Identifiers:
-subject_ID : Subject identifier (Volunteer), integer, range : 1 to 30
-activity_ID : Activity identifier for each activity type, integer, range : 1 to 6
-activity_name : Activity name for each activity, string
+
+- subject_ID : Subject identifier (Volunteer), integer, range : 1 to 30
+- activity_ID : Activity identifier for each activity type, integer, range : 1 to 6
+- activity_name : Activity name for each activity, string
 
 Average Measurements:
 =================================
