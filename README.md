@@ -1,6 +1,5 @@
 # Getting-and-Cleaning-Data-Programming-Assignment
-Getting and Cleaning Data | Programming Assignment | Coursera
-==================================================================
+
 Human Activity Recognition Using Smartphones Dataset
 ==================================================================
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users.
@@ -22,4 +21,4 @@ For each record it is provided:
 
 About the attached data set "tidydata.txt"
 ==================================================================
-The task was to merge training and test data to create one data set and extract the measurements on the mean and standard deviation for each measurement. The final data set was created by calculating the average of the mean and standar deviation measurements for each activity and each subject.
+The task was to merge training and test data to create one data set and extract the measurements on the mean and standard deviation for each measurement. The final data "tidydata.txt" set was created by calculating the average of the mean and standar deviation measurements for each activity and each subject.
